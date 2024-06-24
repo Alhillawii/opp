@@ -50,32 +50,32 @@ class Car {
 
   //task5//
 
-  class account {
-    #balance;
+//   class account {
+//     #balance;
 
-    constructor(balance) {
-        this.#balance = balance;
-    }
+//     constructor(balance) {
+//         this.#balance = balance;
+//     }
 
-    deposit(amount) {
-        this.#balance += amount;
-        console.log(`Deposited: ${amount}, New Balance: ${this.#balance}`);
-    }
+//     deposit(amount) {
+//         this.#balance += amount;
+//         console.log(`Deposited: ${amount}, New Balance: ${this.#balance}`);
+//     }
 
-    setbalance(balance) {
-        this.#balance = balance;
-    }
+//     setbalance(balance) {
+//         this.#balance = balance;
+//     }
     
-    getbalance() {
-        return this.#balance;
-    }
-  }
+//     getbalance() {
+//         return this.#balance;
+//     }
+//   }
 
-  let account = new account (2500);
+//   let account = new account (2500);
 
-  account.deposit(1200);
-  account.setbalance(2000);
-  console.log(account.getbalance());
+//   account.deposit(1200);
+//   account.setbalance(2000);
+//   console.log(account.getbalance());
 
 
 
